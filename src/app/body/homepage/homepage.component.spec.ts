@@ -1,11 +1,11 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
-import { NavComponent } from './nav.component';
+import { HomepageComponent } from './homepage.component';
 
-describe('Component: Nav', () => {
+describe('Component: Homepage', () => {
   it('should create an instance', () => {
-    let component = new NavComponent();
+    let component = new HomepageComponent();
     expect(component).toBeTruthy();
   });
 });

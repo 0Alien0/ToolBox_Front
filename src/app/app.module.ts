@@ -5,14 +5,14 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
 import { BodyComponent } from './body/body.component';
+import { HomepageComponent } from './body/homepage/homepage.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
-		NavComponent,
 		BodyComponent,
+		HomepageComponent,
 	],
 	imports: [
 		BrowserModule,
